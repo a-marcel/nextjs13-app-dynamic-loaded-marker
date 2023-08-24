@@ -1,0 +1,23 @@
+{
+    "scripts": {
+        "dev-turbo": "next dev --turbo",
+        "dev": "TAILWIND_MODE=watch next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "devDependencies": {
+        "@types/leaflet": "^1.9.3",
+        "@types/node": "^20.5.4",
+        "@types/react": "^18.2.21",
+        "@types/react-dom": "^18.2.7",
+        "next": "^13.4.19",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-leaflet": "^4.2.1",
+        "typescript": "^5.2.2"
+    },
+    "dependencies": {
+        "clsx": "^2.0.0",
+        "leaflet": "^1.9.4"
+    }
+}
