@@ -21,7 +21,7 @@ const Wrapper = (props : WrapperProps) => {
     console.log("Map test", featureGroupRef.current, featureGroupRef.current?.getLayers())
     if (map && featureGroupRef.current) {
       console.log("Bounds", featureGroupRef.current)
-      // map.fitBounds(featureGroupRef.current.getBounds());
+      map.fitBounds(featureGroupRef.current.getBounds());
     }
   }, [map, featureGroupRef]);
 
